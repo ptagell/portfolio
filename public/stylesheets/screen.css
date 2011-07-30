@@ -67,18 +67,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 12, ../../sass/screen.scss */
+/* line 30, ../../sass/screen.scss */
 body {
-  background: url("/images/alfiebg.jpg") top center;
+  background: url("/images/alfiebg-lines.jpg") top center;
 }
-/* line 14, ../../sass/screen.scss */
-body span, body h2, body ul li a {
+/* line 32, ../../sass/screen.scss */
+body span, body h2, body ul li a, body section[role="main"] p:first-child {
   display: block;
   clear: both;
   height: 130px;
   width: 200px;
   padding-top: 70px;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   border-radius: 100px;
   font-size: 42px;
   line-height: 37px;
@@ -87,12 +87,13 @@ body span, body h2, body ul li a {
   font-family: "Helvetica Neue", Arial, Sans-serif;
   font-weight: 100;
 }
-/* line 18, ../../sass/screen.scss */
+/* line 36, ../../sass/screen.scss */
 body header {
   margin: 0px auto;
-  width: 600px;
+  width: 650px;
+  background: rgba 0, 0, 0, 0.3;
 }
-/* line 20, ../../sass/screen.scss */
+/* line 38, ../../sass/screen.scss */
 body header span {
   float: left;
   margin-top: 90px;
@@ -103,7 +104,7 @@ body header span {
   text-indent: -999em;
   clear: none;
 }
-/* line 21, ../../sass/screen.scss */
+/* line 39, ../../sass/screen.scss */
 body header h1 {
   float: left;
   margin: 150px 0 0 30px;
@@ -114,37 +115,93 @@ body header h1 {
   font-family: "Helvetica Neue", Arial, Sans-serif;
   font-weight: 100;
 }
-/* line 24, ../../sass/screen.scss */
+/* line 42, ../../sass/screen.scss */
 body header h2 {
-  margin: 200px 0 0 400px;
+  margin: 180px 0 0 400px;
   clear: both;
   float: left;
   text-indent: -999em;
+  padding-top: 100px;
+  height: 140px;
+  width: 249px;
+  border-radius: 170px;
 }
-/* line 25, ../../sass/screen.scss */
-body header h2:hover {
+/* line 43, ../../sass/screen.scss */
+body header h2:hover, body header h2:focus {
   text-indent: 0px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 3px solid #f50;
+  color: #fff;
+  text-indent: 0px;
+  -webkit-transition: color 0.3s ease-in-out,   background 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out,   background 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out,   background 0.3s ease-in-out;
+  transition: color .3s ease-in-out,   background .3s ease-in-out;
 }
-/* line 29, ../../sass/screen.scss */
+/* line 47, ../../sass/screen.scss */
 body section[role="main"] {
   margin: 0px auto;
-  width: 600px;
+  width: 650px;
+  background: rgba 0, 0, 0, 0.3;
 }
-/* line 31, ../../sass/screen.scss */
+/* line 49, ../../sass/screen.scss */
+body section[role="main"] p:first-child {
+  margin: 130px 0px 150px 0px;
+  float: left;
+  clear: both;
+  text-indent: -999em;
+}
+/* line 50, ../../sass/screen.scss */
+body section[role="main"] p:first-child:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border: 3px solid #f50;
+  color: #fff;
+  text-indent: 0px;
+  -webkit-transition: color 0.3s ease-in-out,   background 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out,   background 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out,   background 0.3s ease-in-out;
+  transition: color .3s ease-in-out,   background .3s ease-in-out;
+}
+/* line 51, ../../sass/screen.scss */
+body section[role="main"] ul {
+  margin-bottom: 0px;
+  float: left;
+}
+/* line 53, ../../sass/screen.scss */
 body section[role="main"] ul li {
   float: left;
   position: relative;
-  padding-right: 50px;
+  padding-right: 10px;
+  margin-bottom: 50px;
 }
-/* line 33, ../../sass/screen.scss */
+/* line 55, ../../sass/screen.scss */
 body section[role="main"] ul li a {
   text-decoration: none;
   text-indent: -999em;
 }
-/* line 34, ../../sass/screen.scss */
+/* line 56, ../../sass/screen.scss */
 body section[role="main"] ul li a:hover, body section[role="main"] ul li a:focus {
-  text-indent: 0em;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
   border: 3px solid #f50;
-  color: #f50;
+  color: #fff;
+  text-indent: 0px;
+  -webkit-transition: color 0.3s ease-in-out,   background 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out,   background 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out,   background 0.3s ease-in-out;
+  transition: color .3s ease-in-out,   background .3s ease-in-out;
+}
+/* line 57, ../../sass/screen.scss */
+body section[role="main"] ul li a.tweeting {
+  padding-top: 80px;
+  height: 120px;
+}
+/* line 58, ../../sass/screen.scss */
+body section[role="main"] ul li a.blogging {
+  padding-top: 70px;
+  height: 130px;
+}
+/* line 59, ../../sass/screen.scss */
+body section[role="main"] ul li a.websites {
+  padding-top: 60px;
+  height: 140px;
 }
