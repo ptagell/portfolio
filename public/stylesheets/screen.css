@@ -1,0 +1,150 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 12, ../../sass/screen.scss */
+body {
+  background: url("/images/alfiebg.jpg") top center;
+}
+/* line 14, ../../sass/screen.scss */
+body span, body h2, body ul li a {
+  display: block;
+  clear: both;
+  height: 130px;
+  width: 200px;
+  padding-top: 70px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  font-size: 42px;
+  line-height: 37px;
+  text-align: center;
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, Sans-serif;
+  font-weight: 100;
+}
+/* line 18, ../../sass/screen.scss */
+body header {
+  margin: 0px auto;
+  width: 600px;
+}
+/* line 20, ../../sass/screen.scss */
+body header span {
+  float: left;
+  margin-top: 90px;
+  height: 150px;
+  width: 150px;
+  padding: 0px;
+  background: url("/images/paultagell.jpg") no-repeat;
+  text-indent: -999em;
+  clear: none;
+}
+/* line 21, ../../sass/screen.scss */
+body header h1 {
+  float: left;
+  margin: 150px 0 0 30px;
+  font-size: 42px;
+  line-height: 37px;
+  text-align: center;
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, Sans-serif;
+  font-weight: 100;
+}
+/* line 24, ../../sass/screen.scss */
+body header h2 {
+  margin: 200px 0 0 400px;
+  clear: both;
+  float: left;
+  text-indent: -999em;
+}
+/* line 25, ../../sass/screen.scss */
+body header h2:hover {
+  text-indent: 0px;
+}
+/* line 29, ../../sass/screen.scss */
+body section[role="main"] {
+  margin: 0px auto;
+  width: 600px;
+}
+/* line 31, ../../sass/screen.scss */
+body section[role="main"] ul li {
+  float: left;
+  position: relative;
+  padding-right: 50px;
+}
+/* line 33, ../../sass/screen.scss */
+body section[role="main"] ul li a {
+  text-decoration: none;
+  text-indent: -999em;
+}
+/* line 34, ../../sass/screen.scss */
+body section[role="main"] ul li a:hover, body section[role="main"] ul li a:focus {
+  text-indent: 0em;
+  background: rgba(255, 255, 255, 0.2);
+  border: 3px solid #f50;
+  color: #f50;
+}
